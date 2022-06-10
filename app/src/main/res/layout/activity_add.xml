@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -31,8 +30,7 @@
         android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/rounded"
-        android:gravity="center" />
+        android:background="@drawable/rounded" />
 
     <TextView
         android:layout_width="match_parent"
@@ -49,8 +47,7 @@
         android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/rounded"
-        android:gravity="center" />
+        android:background="@drawable/rounded" />
 
     <TextView
         android:layout_width="match_parent"
@@ -67,8 +64,8 @@
         android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="5dp"
         android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/rounded"
         android:foreground="?attr/selectableItemBackground"
         android:padding="4dp">
@@ -79,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_toLeftOf="@id/ivCalender"
-            android:text="Sat, Dec 04, 6:30 PM"
+            android:text="Sat, Dec 04"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
@@ -89,7 +86,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/calendar_icon" />
+            android:tint="@color/black"
+            android:src="@drawable/birth_date_icon" />
     </RelativeLayout>
 
     <TextView
@@ -107,26 +105,25 @@
         android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/rounded"
-        android:gravity="center" />
+        android:background="@drawable/rounded" />
 
-<!--    <TextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="15dp"-->
-<!--        android:layout_marginBottom="5dp"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Image Url"-->
-<!--        android:textSize="20sp" />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:layout_marginBottom="5dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Image Url"-->
+    <!--        android:textSize="20sp" />-->
 
-<!--    <EditText-->
-<!--        android:id="@+id/txtImageUrl"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="45dp"-->
-<!--        android:layout_marginLeft="10dp"-->
-<!--        android:layout_marginRight="10dp"-->
-<!--        android:background="@drawable/rounded"-->
-<!--        android:gravity="center" />-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/txtImageUrl"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="45dp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:layout_marginRight="10dp"-->
+    <!--        android:background="@drawable/rounded"-->
+    <!--        android:gravity="center" />-->
 
     <Button
         android:id="@+id/btnSave"
@@ -141,19 +138,19 @@
         android:textAllCaps="false"
         android:textSize="21dp" />
 
-<!--    <Button-->
-<!--        android:id="@+id/btnBack"-->
-<!--        android:layout_width="200dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:layout_marginLeft="25dp"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        android:layout_marginRight="25dp"-->
-<!--        android:background="@drawable/rounded"-->
-<!--        android:backgroundTint="#EF6FB5"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Back"-->
-<!--        android:textAllCaps="false"-->
-<!--        android:textSize="21dp" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btnBack"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginLeft="25dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginRight="25dp"-->
+    <!--        android:background="@drawable/rounded"-->
+    <!--        android:backgroundTint="#EF6FB5"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Back"-->
+    <!--        android:textAllCaps="false"-->
+    <!--        android:textSize="21dp" />-->
 
 </LinearLayout>

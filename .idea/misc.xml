@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dipak Rana/AndroidStudioProjects/Room_Database_App/app/src/main/res/layout/activity_add.xml" value="0.203125" />
+        <entry key="..\:/Users/Dipak Rana/AndroidStudioProjects/Room_Database_App/app/src/main/res/layout/activity_main.xml" value="0.203125" />
         <entry key="..\:/Users/dipak.rana/AndroidStudioProjects/RoomDatabaseApp/app/src/main/res/drawable/add_view.xml" value="0.31851851851851853" />
         <entry key="..\:/Users/dipak.rana/AndroidStudioProjects/RoomDatabaseApp/app/src/main/res/drawable/calendar_icon.xml" value="0.325" />
         <entry key="..\:/Users/dipak.rana/AndroidStudioProjects/RoomDatabaseApp/app/src/main/res/drawable/delete_icon.xml" value="0.2490740740740741" />
